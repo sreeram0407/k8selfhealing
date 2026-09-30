@@ -1,4 +1,6 @@
-# K8s Self-Healing Agent
+# Kubernetes Self-Healing Prototype
+
+**Looking for the GKE deployment and offline demo?** See [Kubernetes Self-Healing Agent](https://github.com/sreeram0407/amlc-k8s-self-healing-agent). This repository contains the earlier simulated-cluster prototype.
 
 An autonomous Kubernetes self-healing agent that monitors cluster events, diagnoses failures using the Claude API, attempts auto-remediation via MCP tools, and escalates to humans when it can't fix things itself. Every decision is audit-logged.
 
